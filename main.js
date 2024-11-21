@@ -14,12 +14,12 @@ let errorMessage;
 function convertor() {
 
     if (celciusCheck.checked) {
-        inputText.textContent = "Covertin from, Celcius to Fahrenheit."
+        inputText.textContent = "Coverting from, Celcius to Fahrenheit."
         checkText.textContent = "";
     };
 
     if (fahrenheitCheck.checked) {
-        inputText.textContent = "Covertin from, Fahrenheit to Celcius."
+        inputText.textContent = "Coverting from, Fahrenheit to Celcius."
         checkText.textContent = "";
     }    
 };
@@ -52,4 +52,3 @@ convertBtn.addEventListener("click", () => {
     }; 
     convertor()
 });
-
