@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: -webkit-linear-gradient(top, rgb(223, 165, 163) 30%, hsl(120, 65%, 78%));
+    background: -moz-linear-gradient(top, rgb(223, 165, 163) 30%, hsl(120, 65%, 78%));
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    border: 3px solid hsl(180, 100%, 79%);
+    border-radius: 1rem;
+    box-shadow: 2px 4px 6px hsl(172, 91%, 40%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 25rem;
+    max-width: 30rem;
+    background: -webkit-linear-gradient(bottom, rgb(207, 108, 103) 30%, hsl(120, 41%, 50%));
+    background: -moz-linear-gradient(bottom, rgb(207, 108, 103) 30%, hsl(120, 41%, 50%));
+    color: hsl(0, 0%, 100%);
+}
+
+.main-header h1{
+    margin: 1rem 0;
+}
+
+.main-header p{
+    margin: 0.5rem 0;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+}
+
+input{accent-color: rgb(0, 255, 13)}
+
+form{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+input, label{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+
+.main h2{
+    margin: 0.2rem 0 1rem 0 ;
+}
+
+input{
+    margin-top: 0.3em;
+    color: hsl(0, 0%, 0%);
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    box-shadow: 3px 2px 6px rgb(0, 0, 0);
+    background: rgb(243, 223, 223);
+}
+
+.inputTemp:focus{
+    outline: none;
+    border: none;
+    background: -webkit-linear-gradient(left, rgb(240, 170, 170), blue);
+    background: -moz-linear-gradient(left, gray, rgb(135, 135, 250));
+}
+
+
+::placeholder{
+    font-size: 1rem;
+}
+
+.convertBtn{
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    border: 2px solid rgb(227, 248, 195);
+    border-radius: 0.5rem;
+    margin: 1rem 0 1rem 0;
+    background: -webkit-linear-gradient(left, hsl(60, 75%, 76%), hsl(240, 83%, 77%));
+    background: linear-gradient(left, hsl(60, 75%, 76%), hsl(240, 83%, 77%));
+    box-shadow: 2px 2px 8px hsl(0, 0%, 100%);
+    outline: none;
+}
+
+.convertBtn:hover{
+    background: -webkit-linear-gradient(right, hsl(60, 75%, 76%), hsl(240, 83%, 77%));
+    background: linear-gradient(left, hsl(60, 75%, 76%), hsl(240, 83%, 77%));
+    box-shadow: 2px 2px 8px hsl(0, 0%, 0%);
+    color: rgb(255, 0, 0);
+}
+
+.convertBtn:focus{
+    outline: none;
+    border: none;
+}
+
+footer  p{
+    margin: 1rem 0 0 0;
+    color: white;
+    box-shadow: 2px 2px 5px rgb(197, 22, 10);
+    font-family: cursive;
+    background: hsla(0, 100%, 50%, 0);
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+footer  p:hover{
+    font-family: monospace;
+    color: white;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    font-family: cursive;
+    background: hsla(0, 93%, 44%, 0.582);
+}
+

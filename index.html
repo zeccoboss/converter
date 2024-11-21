@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Temperature conver">
+    <meta name="author" content="ZECCO">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <h1>Temperature Converter</h1>
+            <p>Please select any of the follow option to convert</p>
+            <form action="">
+                <input type="radio" id="celciusCheck" class="celciusCheck" name="temperature">
+                <label for="celciusCheck">Celcius to Fahrenheit.</label>
+                <br>
+                <input type="radio" id="fahrenheitCheck" class="fahrenheitCheck" name="temperature">
+                <label for="fahrenheitCheck">Fahrenheit to Celcius.</label>
+            </form>
+        </header>
+        <main class="main">
+            <h2>Input Value Below...</h2>
+            <label for="inputTemp" id="inputText">Convert:</label>
+            <br>
+            <input type="text" id="inputTemp" class="inputTemp" placeholder="Temp...">
+            <br>
+            <button id="convertBtn" class="convertBtn">Convert</button>
+            <h2 id="checkText"></h2>
+            <h2 class="tempValue" id="tempValue"></h2>
+        </main>
+        <footer>
+            <div class="foot">
+                <p class="my-name">ZECCO✅</p>
+            </div>
+        </footer>
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
