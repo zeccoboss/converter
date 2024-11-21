@@ -1,4 +1,3 @@
-
 const celciusCheck = document.querySelector("#celciusCheck");
 const fahrenheitCheck = document.querySelector("#fahrenheitCheck");
 const inputTemp = document.querySelector("#inputTemp");
