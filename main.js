@@ -1,3 +1,4 @@
+
 const celciusCheck = document.querySelector("#celciusCheck");
 const fahrenheitCheck = document.querySelector("#fahrenheitCheck");
 const inputTemp = document.querySelector("#inputTemp");
@@ -29,7 +30,7 @@ convertBtn.addEventListener("click", () => {
     value = inputTemp.value;
 
     if (inputTemp.value.trim() === "" ||  inputTemp.value  === NaN || isNaN(inputTemp.value) ) {
-        tempValue.textContent = `Invalid details`
+        tempValue.textContent = `Enter a valid number`
     } else if (celciusCheck.checked) {
         value = Number(inputTemp.value);
         c = (value * 9 / 7) + 32;
@@ -48,7 +49,7 @@ convertBtn.addEventListener("click", () => {
     }
 
     if (!celciusCheck.checked && !fahrenheitCheck.checked) {
-        checkText.textContent = "Please select from the convert option";
+        checkText.textContent = "Please select conversion methood, ether Celcius or Fanrenheit";
     }; 
     convertor()
 });
